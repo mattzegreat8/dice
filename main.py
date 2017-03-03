@@ -4,6 +4,7 @@ print("This game consists of 2 players.\n Each player will roll the dice and the
 player1= raw_input("What is player ones name?")
 player2= raw_input("What is player twos name?")
 
+'''
 roll1=randrange(1,7)
 print("{}, you rolled this!".format(player1))
 print(roll1)
@@ -17,3 +18,6 @@ if(roll1>roll2):
 	print( "{} wins".format(player1))
 if(roll1<roll2):
 	print("{} wins".format(player2))
+'''
+
+roll= randrange(1,7)
