@@ -20,24 +20,26 @@ if(roll1<roll2):
 	print("{} wins".format(player2))
 '''
 
-player1roll=randrange(1,7)
-player2roll=randrange(1,7)
+player1roll=0
+player2roll=0
 
 wincount=3
 player1win=0
 player2win=0
 
 while(player1win != wincount and player2win != wincount):
-	player1roll
+	player1roll=randrange(1,7)
 	print(player1roll)
-	player2roll
+	player2roll=randrange(1,7)
 	print(player2roll)
 	if(player1roll>player2roll):
-		player1win+1
+		player1win+= 1
 		print("Player 1, you won that round!")
+
 	if(player2roll>player1roll):
-		player2win+1
+		player2win+= 1
 		print("Player 2, you won that round!")
+		
 	if(player1win==3):
 		print("Player 1, you win!")
 	if(player2win==3):
