@@ -28,4 +28,15 @@ player1win=0
 player2win=0
 
 while(player1win != wincount or player2win!= wincount):
-	
+	player1roll
+	print(player1roll)
+	player2roll
+	print(player2roll)
+	if(player1roll>player2roll):
+		player1win+1
+	if(player2roll>player1roll):
+		player2win+1
+	if(player1win==3):
+		print("Player 1, you win!")
+	if(player2win==3):
+		print("Player 2, you win!")
