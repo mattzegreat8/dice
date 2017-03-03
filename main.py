@@ -27,7 +27,7 @@ wincount=3
 player1win=0
 player2win=0
 
-while(player1win != wincount or player2win!= wincount):
+while(player1win != wincount and player2win != wincount):
 	player1roll
 	print(player1roll)
 	player2roll
