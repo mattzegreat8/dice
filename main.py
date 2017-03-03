@@ -34,8 +34,10 @@ while(player1win != wincount or player2win!= wincount):
 	print(player2roll)
 	if(player1roll>player2roll):
 		player1win+1
+		print("Player 1, you won that round!")
 	if(player2roll>player1roll):
 		player2win+1
+		print("Player 2, you won that round!")
 	if(player1win==3):
 		print("Player 1, you win!")
 	if(player2win==3):
