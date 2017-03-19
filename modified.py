@@ -12,5 +12,15 @@ player2dice= int(raw_input("What dice do you want player 2?"))
 
 while(player1dice or player2dice != 4 or 8 or 12):
 	print("I'm sorry, we do not have that dice please choose again. \n Your options are 4, 8 , and 12")
-	if(player1dice or player2dice == 1):
+	if(player1roll == player2roll):
+		print("Player 1 wins")
+
+	if(player1roll or player2roll == 1):
 		print("Congrats you won!")
+
+	if(player1dice or player2dice == 12):
+		print("I'm sorry you lost!")
+
+	if()
+
+    
