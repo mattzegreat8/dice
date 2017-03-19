@@ -21,10 +21,10 @@ while(player1win != 3 and player2win != 3):
 		print("Player 1 wins")
 
 	if(player1roll == 1):
-		player1win += 1
+		player1win += 3
 		print("Congrats Player 1, You won!")
 	elif(player2roll ==1):
-		player2win += 1
+		player2win += 3
 		print("Congrats Player 2, You won!")
 
 	if(player1dice == 12):
